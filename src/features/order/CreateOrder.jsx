@@ -22,7 +22,7 @@ function CreateOrder() {
   const dispatch = useDispatch();
   const isSubmitting = navigation.state === "submitting";
   const {
-    username,
+    userName: username,
     status: addressStatus,
     position,
     address,
